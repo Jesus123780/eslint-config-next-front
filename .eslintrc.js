@@ -4,7 +4,7 @@ const MAX_PROPS_PER_LINE_MULTI = 1
 module.exports = {
   env: {
     browser: true,
-    es2021: true,
+    es6: true,
     node: true
   },
   extends: [
@@ -17,7 +17,7 @@ module.exports = {
     ecmaFeatures: {
       jsx: true
     },
-    ecmaVersion: 12,
+    ecmaVersion: 2021,
     sourceType: 'module'
   },
   plugins: ['react', 'react-hooks', '@typescript-eslint'],
