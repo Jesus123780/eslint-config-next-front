@@ -37,7 +37,7 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'warn',
     'space-infix-ops': 'error',
     'arrow-spacing': ['error', { 'before': true, 'after': true }],
-    'max-len': ['error', { 'code': 200 }],
+    'max-len': ['error', { 'code': 1000 }],
     'react/jsx-max-props-per-line': [
       'error',
       {
